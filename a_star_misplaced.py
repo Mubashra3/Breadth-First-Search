@@ -1,7 +1,6 @@
 '''
-Homework 5: 15-Puzzle Solver using A* Number of Misplaced Tiles
+15-Puzzle Solver using A* Number of Misplaced Tiles
 Name: Mubashra Sohail
-netidL msoha3
 '''
 
 import time
@@ -161,4 +160,5 @@ def main():
     print(f"Total searching time: {round((end_time - start_time), 3)} seconds")
 
 if __name__ == "__main__":
+
     main()
