@@ -1,7 +1,6 @@
 '''
-Homework 4: 15-Puzzle Solver using IDDFS
+15-Puzzle Solver using IDDFS
 Name: Mubashra Sohail
-netid: msoha3
 Description: This program solves the 15-puzzle problem using the Iterative Deepening
              Depth-First Search (IDDFS) algorithm. It follows the structure requested
              in the assignment, using a recursive DLS and path-checking to find the
@@ -158,4 +157,5 @@ def goal_test(current_tiles):
     return current_tiles == tuple(range(1, 16)) + (0,)
 
 if __name__ == "__main__":
+
     main()
